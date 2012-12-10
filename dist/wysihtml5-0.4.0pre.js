@@ -326,6 +326,7 @@ window['rangy'] = (function() {
 
     return api;
 })();
+var rangy = window['rangy'];
 rangy.createModule("DomUtil", function(api, module) {
 
     var UNDEF = "undefined";
@@ -9577,3 +9578,4 @@ wysihtml5.views.Textarea = wysihtml5.views.View.extend(
     }
   });
 })(wysihtml5);
+exports.wysihtml5 = wysihtml5;
